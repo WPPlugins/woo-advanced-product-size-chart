@@ -1,0 +1,205 @@
+
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#subscribemeaecfree{margin-right: 8px;}
+#size-chart-meta-fields input[type="text"], 
+#size-chart-meta-fields input[type="password"], 
+#size-chart-meta-fields input[type="checkbox"], 
+#size-chart-meta-fields input[type="color"], 
+#size-chart-meta-fields input[type="date"], 
+#size-chart-meta-fields input[type="datetime"], 
+#size-chart-meta-fields input[type="datetime-local"], 
+#size-chart-meta-fields input[type="email"], 
+#size-chart-meta-fields input[type="month"], 
+#size-chart-meta-fields input[type="number"], 
+#size-chart-meta-fields input[type="password"], 
+#size-chart-meta-fields input[type="search"], 
+#size-chart-meta-fields input[type="radio"], 
+#size-chart-meta-fields input[type="tel"], 
+#size-chart-meta-fields input[type="text"], 
+#size-chart-meta-fields input[type="time"], 
+#size-chart-meta-fields input[type="url"], 
+#size-chart-meta-fields input[type="week"],
+#size-chart-meta-fields select, textarea{
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    background-color: #fff;
+    color: #32373c;
+    outline: none;
+    -webkit-transition: 0.05s border-color ease-in-out;
+    transition: 0.05s border-color ease-in-out;
+    width:99% !important;}
+.field-title h4{margin-bottom:0px;}
+.select2-container--default .select2-selection--multiple{border: 1px solid #ddd !important}
+
+.field-description {
+    color: #AAA;
+    font-style: italic;
+    margin: 0 0 16px!important;
+}
+
+#size-chart-meta-fields #field{    
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+    padding: 0 0 16px 0;}
+#chart-table,#chart-table-1,#chart-table-2{display:none;}
+.select2-container{margin-top:20px !important;}
+.title-wrap h2{font-size:20px !important; margin-left:0 !important; padding-left:0 !important}
+.preview_chart{ cursor:pointer;}
+
+
+#size-chart tr:nth-child(2n+1){ background:#ebe9eb;}
+.chart-content-list {display: inline-block;float: left;width: 71%;padding: 10px;text-align:left;}
+.chart-content-list span {font-size: 16px;font-weight: bold;}
+.chart-content-list li {font-family: arial;font-size: 14px;padding: 3px;}
+.chart-content-image {display: inline-block;float: left;width: 21%;}
+table#size-chart tr th {font-size: 14px; font-weight: bold;}
+table#size-chart tr td {font-size: 12px;}
+table#size-chart tr th,table#size-chart tr td {text-align: center;word-wrap: break-word;}
+.chart-image {
+    width: 30%;
+}
+.chart-content-image img{
+    height: auto;
+    max-width: 100%;
+}
+.chart-table{clear:both; margin-top:15px; float:left;}
+.chart-table table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+}
+.chart-table th, td {
+    padding: 0.4375em;
+}
+.chart-table table, .chart-table th, .chart-table td {
+    border: 1px solid #d1d1d1;
+}
+.chart-table td,.chart-table th {
+    border-width: 0 1px 1px 0;
+}
+.size-chart-model .remodal-close::before,.size-chart-model .remodal-close{right:0;left:auto;}
+#wait{display:none;position:absolute;top:50%;left:50%;padding:2px;z-index:9999999;}
+div.size-chart-setting h1{ font-size:20px;font-weight:bold;padding-bottom:20px;}
+div#size-chart-setting-fields .set-size-chart-fieldset {
+    background: #fff none repeat scroll 0 0;
+}
+.set-size-chart-fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+div#size-chart-setting-fields legend {
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#size-chart-setting-fields .set-size-chart-fieldset table.form-table tbody tr th {
+    width: 22% !important;
+}
+.assign-item ul{margin: 0 0 0 20px;list-style: disc;}
+.wp-list-table tbody tr td a.preview_chart{background:url("../images/preview-icon.png") no-repeat;padding: 0 0 9px 27px;}
+.wp-list-table tbody tr td a.clone-chart{background:url("../images/clone-icon.png") no-repeat;padding: 0 0 9px 27px;}
+
+
+.plug-containter .contain-section {
+    display: inline-block;
+    margin-top: 30px;
+    width: 25%;
+}
+.paid_plugin {
+    margin-bottom: 20px;
+}
+.plug-containter {
+    display: inline-block;
+    margin-left: 20px;
+    width: 100%;
+}
+.paid_plugin h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.plug-containter .contain-section .contain-img {
+    display: inline-block;
+    width: 30%;
+}
+.plug-containter .contain-section .contain-title {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.free_plugin {
+    margin-bottom: 20px;
+}
+.free_plugin h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.plug-containter .contain-section .contain-title a {
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+}
+.setting-description{font-style:italic; font-size:13px;}
+.setting-description p{font-style:italic; font-size:13px;}
+.set-size-chart-fieldset-container{background:#fff;}
+.set-size-chart-fieldset-container .notice-success, div.updated {
+    border-bottom: 1px solid #ccc;
+    border-color: #ccc #ccc #ccc #46b450;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.global-setting td:nth-child(2) {width: 190px;}
+.remodal{ margin-top:25px;}
+
+@media only screen and (max-width: 500px){
+    table#size-chart tr th { font-size: 11px !important;}
+    table#size-chart tr td {font-size: 10px !important;}
+}
+/*div#field-image a{ background: url("../images/close-icon.png") no-repeat;  width: 32px;  height: 32px; cursor: pointer; display: inline-block;  background-size: 23px; vertical-align: top; margin-left: -29px;  margin-top: 0px;}*/
+.sfl-about-first-div {
+    min-height: 160px;
+    padding-right: 200px;
+    position: relative;
+}
+.sfl-about-first-div img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.about-wrap .size-chart-whatn-right p{margin-left:0;margin-right:0; max-width:100%;}
+
+.field_image_box {
+    display: inline-block;
+    height: auto;
+}
+
+.field_image_box a.delete-chart-image{
+    display:none;
+    cursor: pointer;
+}
+.field_image_box:hover a.delete-chart-image {
+    bottom: 0;
+    display: block;
+    left: 130px;
+    position: absolute;
+    right: 88.2%;
+    top: 186px;
+    cursor: pointer;
+}
+tr.scpro th{color: gray}
+.size-chart-setting p{margin: 1em 0;}
+.size-chart-setting .abpro{color:red}

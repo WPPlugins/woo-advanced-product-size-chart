@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ .chart-container{}
+ .remodal-wrapper .size-chart-model{padding:35px;}
+.chart-content-list {display: inline-block;float: left;width: 71%;padding: 10px;text-align:left;}
+.chart-content-list span {font-size: 16px;font-weight: bold;}
+.chart-content-list li {font-size: 14px;padding: 3px;}
+.chart-content-image {display: inline-block;float: left;width: 21%;}
+table#size-chart tr th {font-size: 14px; font-weight: bold;}
+table#size-chart tr td {font-size: 12px;}
+table#size-chart tr th,table#size-chart tr td {text-align: center;word-wrap: break-word;}
+.chart-image {width: 30%;}
+.size-chart-model .remodal-close::before,.size-chart-model .remodal-close{right:0;left:auto;}
+.chart-content-list p{font-size:14px;}
+#chart-button {border-bottom: medium none;box-shadow: none;text-decoration: none;}
+.button-wrapper {clear: both;float: left;margin-bottom: 15px;width: 100%;}
+.remodal{ margin-top:25px;}
+
+@media only screen and (max-width: 500px){
+table#size-chart tr th { font-size: 11px !important;}
+table#size-chart tr td {font-size: 10px !important;}
+}
